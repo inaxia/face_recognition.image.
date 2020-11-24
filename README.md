@@ -1,20 +1,28 @@
-# Face Recognition (image)
+![](banner.png)
+# Face Recognition in Image
+This project is made to recognize faces in image(s). <br>
+It's based on AI & ML using some libraries like: os, opencv & face_recognition.
 
-This project is based on Artificial Intelligence & Machine Learning
-Using some libraries like: os, opencv & face_recognition
+## Project Description
+This project is made to detect a face in a image provided, and check if it matches with the image data or a set of images provided.
 
-## Project Summary
+## Steps to Run
+- Each **.py** file has a specific work to perform commented at the starting of that file.
+1. Fork this repo
+2. Clone the forked repo to your local system
+3. Install the following libraries: (in **Linux** or **macOS**)
+   1. `cv2`
+   2. `face_recogniton`
+   3. `os`
+   4. `time`
+5. Run the code
 
-1. initialCode.py (first attempt to detect face in an image)
+## Demo video
+![](demo.gif)
 
-   In this, we have used 2 libraries: opencv & face_recognition.
+## Reference link
+(Use this link when you unable to import **face_recognition** library): https://ourcodeworld.com/articles/read/841/how-to-install-and-use-the-python-face-recognition-and-detection-library-in-ubuntu-16-04 <br>
+Image from Google: https://media.kairos.com/blog-images/crowd.png
 
-   i. face_recognition:
-
-      we used `load_image_file` for loading an image from `assets` folder,
-
-      we have also used `face_locations` to find the face in that image,
-
-      we used `face_encodings` to get 128 measurements of that face,
-
-      and finally used `compare_faces` to compare two faces.
+## Support
+If you like this project, don't forget to give it a ⭐
