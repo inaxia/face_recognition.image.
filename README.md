@@ -6,6 +6,10 @@ It's based on AI & ML using some libraries like: os, opencv & face_recognition.
 ## Project Description
 This project is made to detect a face in a image provided, and check if it matches with the image data or a set of images provided.
 
+## Community
+**[Code of Conduct](https://github.com/inaxia/attendance_using_face_recognition/blob/master/CODE_OF_CONDUCT.md)**<br>
+**[Contributing to Inaxia](https://github.com/inaxia/attendance_using_face_recognition/blob/master/CONTRIBUTING.md)**
+
 ## Steps to Run
 - Each **.py** file has a specific work to perform commented at the starting of that file.
 1. Fork this repo
@@ -18,7 +22,7 @@ This project is made to detect a face in a image provided, and check if it match
 5. Run the code
 
 ## Demo video
-![](demo.gif)
+<img src="demo.gif" width=1000>
 
 ## Reference link
 (Use this link when you unable to import **face_recognition** library): https://ourcodeworld.com/articles/read/841/how-to-install-and-use-the-python-face-recognition-and-detection-library-in-ubuntu-16-04 <br>
